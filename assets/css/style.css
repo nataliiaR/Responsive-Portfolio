@@ -275,5 +275,10 @@ a:hover.portfolio-link{
         width: 100%;
     
     }
+    img#my-image{
+        float: none;
+        display: block;
+        margin: auto;
+    }
 }
 
