@@ -148,6 +148,10 @@ a:hover.nav-link{
     text-decoration:none;
 }
 
+.active-link{
+    font-weight:bold;
+}
+
 
 #home-country{
     color:orange;
@@ -261,8 +265,15 @@ a:hover.portfolio-link{
     .box-portfolio{
         float: none;
         margin: 1em auto;
-        width: 60%;
-        height: 50%;
+        padding: 0;
+
+    }
+    .image-portfolio{
+ 
+        float: none;
+        margin:0;
+        padding: 0;
+       
     }
     .box-portfolio-name{
         width:100%;
