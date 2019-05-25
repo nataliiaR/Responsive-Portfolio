@@ -35,7 +35,7 @@ span.left-part{
 }
 
 .header-navigation{
-    max-width: 960px;;
+    max-width: 960px;
     margin: auto;
 
 }
@@ -178,6 +178,7 @@ a:hover.nav-link{
     margin-bottom: 2em;
     display: block;
     padding: 0.1em;
+    border: orange 0.1em solid;
 
 }
 
@@ -238,7 +239,7 @@ a:hover.portfolio-link{
 }
 
 /* media */
-@media(max-width:640px){
+@media only screen and (max-width:640px){
     span.left-part{
         float: none;
         display: block;
@@ -282,3 +283,60 @@ a:hover.portfolio-link{
     }
 }
 
+@media only screen and (min-width:641px) and (max-width:768px){
+
+    .body{
+        width: 90%;
+    }
+    .header-navigation{
+        width: 90%;
+    }
+    .box-portfolio{
+        margin: 1em 1em;
+
+    }
+    .box-portfolio-name{
+        width:100%;
+    }
+    .input-field-size{
+        height: 2em;
+        width: 100%;
+    
+    }
+    .input-textarea-size{
+        height: 10em;
+        width: 100%;
+    
+    }
+    
+}
+@media only screen and (min-width:769px) and (max-width:980px){
+
+    .body{
+        width: 90%;
+    }
+    .header-navigation{
+        width: 90%;
+        height: 35%;
+    }
+
+    .box-portfolio{
+        margin: 1em 1em;
+
+    }
+    .box-portfolio-name{
+        width:100%;
+    }
+
+    .input-field-size{
+        height: 2em;
+        width: 100%;
+    
+    }
+    .input-textarea-size{
+        height: 10em;
+        width: 100%;
+    
+    }
+    
+}
