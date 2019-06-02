@@ -11,7 +11,7 @@ header {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: darkgrey;
-    background-color: white;
+    background-color:white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: fixed;
     width: 100%;
@@ -73,7 +73,7 @@ section{
 
 .content-section{
     max-width: 960px;
-    background-color: white;
+    background-color:white;
     border-color: darkgray;
     border-width: 1px;
     border-style: solid;
@@ -163,6 +163,7 @@ a:hover.nav-link{
 .contact-form{
     margin: 0em 2em 2em 2em;
     color:#303030;
+    max-width:90%;
 }
 #submit-button{
     background-color: orange;
@@ -188,13 +189,13 @@ a:hover.nav-link{
 
 .input-field-size{
     height: 2em;
-    width: 50%;
+    width: 100%;
 
 }
 
 .input-textarea-size{
     height: 10em;
-    width: 50%;
+    width: 100%;
 
 }
 #portfolio-content{
@@ -283,13 +284,13 @@ a:hover.portfolio-link{
     }
     .input-field-size{
         height: 2em;
-        width: 100%;
+        width: 90%;
     
     }
     
     .input-textarea-size{
         height: 5em;
-        width: 100%;
+        width: 90%;
     
     }
     img#my-image{
@@ -316,12 +317,12 @@ a:hover.portfolio-link{
     }
     .input-field-size{
         height: 2em;
-        width: 100%;
+        width: 90%;
     
     }
     .input-textarea-size{
         height: 10em;
-        width: 100%;
+        width: 90%;
     
     }
     
@@ -346,12 +347,12 @@ a:hover.portfolio-link{
 
     .input-field-size{
         height: 2em;
-        width: 100%;
+        width: 90%;
     
     }
     .input-textarea-size{
         height: 10em;
-        width: 100%;
+        width: 90%;
     
     }
     
