@@ -230,6 +230,8 @@ a:hover.nav-link{
     text-align: center;
     padding: top 4px;
     padding: bottom 4px;
+    font-weight: bold;
+    font-size:1.3em;
 
 }
 a.portfolio-link{
